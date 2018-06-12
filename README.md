@@ -8,6 +8,7 @@ Hoe installeer je deze library?
 2.	Kopieer en gebruik onderstaande HTML code om alles aan te kunnen sturen
 3.	<script src="budget.js"></script> voeg dit toe onderaan je html bestand voordat de body sluit(</body>)
 4.	Kopieer alles tussen de head en body om het te kunnen gebruiken.
+5.  Download style.css en voeg dit bij de andere bestanden, je kan in het style.css bestand zelf alles aanpassen zodat de     budgetberekenaar er zouit ziet naar jouw wens.
 
 
 De HTML code:
