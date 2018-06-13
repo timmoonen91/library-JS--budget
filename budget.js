@@ -238,16 +238,16 @@ var controller = (function(budgetCtrl, UICtrl) {
 		if(input.description !== "" && !isNaN(input.value) && input.value > 0){
 
 
-		//2	add item to budget controller
+		//2 voeg item toe aan budget controller
 		newItem = budgetCtrl.addItem(input.type, input.description, input.value);
 		
-		//3	add item to UI
+		//3 Voeg item toe aan UI
 		UICtrl.addListItem(newItem, input.type);
 
-		//4. clear fields
+		//4. leeg velden(description en value)
 		UICtrl.legeVelden();
 		
-		//5. calculate and update budget
+		//5. bereken en update budget
 		updateBudget();
 
 
